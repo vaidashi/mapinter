@@ -1,0 +1,16 @@
+
+language: ruby
+cache: bundler
+rvm:
+  - "2.3.4"
+
+env:
+  - DB=postgresql
+
+script:
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake db:test:prepare
+  - bundle exec rspec
+before_script:
+  - bundle exec rake db:create
+bundler_args: --binstubs=./bundler_stubs
