@@ -127,7 +127,7 @@ Country.create(name: "Uzbekistan", region: asia)
 Country.create(name: "Vietnam", region: asia)
 Country.create(name: "Yemen", region: asia)
 
-puts "Seeded all countries for Africa Region"
+puts "Seeded all countries for Asia Region"
 
 puts "Seed Start for European Countries"
 Country.create(name: "Albania", region: europe)
@@ -248,3 +248,4 @@ Country.create(name: "Tonga", region: austrailia)
 Country.create(name: "Tuvalu", region: austrailia)
 
 puts "Seeded countries for Australia Oceanic Region"
+puts "Seeding Complete"
