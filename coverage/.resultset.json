@@ -90,7 +90,7 @@
         null,
         null
       ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/welcome_controller.rb": [
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
         null,
         1,
         null,
@@ -117,6 +117,16 @@
         0,
         0
       ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0
+      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/jobs/application_job.rb": [
         0,
         0
@@ -128,6 +138,6 @@
         0
       ]
     },
-    "timestamp": 1509654774
+    "timestamp": 1509657485
   }
 }
