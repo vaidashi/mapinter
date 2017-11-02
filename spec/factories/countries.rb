@@ -1,6 +1,8 @@
 FactoryBot.define do
   factory :country do
-    name "MyString"
-    region nil
+    sequence(:name) do |n|
+      "Country#{n}"
+    end
+    region
   end
 end

@@ -1,2 +1,59 @@
 
-Root Page 
+<h1>MapInter</h1>
+
+
+<p class= "region"><%= @region.africa %>
+<ul class= "country">
+  <% @region.african_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.asia %>
+<ul class= "country">
+  <% @region.asian_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.europe %>
+<ul class= "country">
+  <% @region.european_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.north_america %>
+<ul class= "country">
+  <% @region.north_american_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.central_america %>
+<ul class= "country">
+  <% @region.central_american_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.south_america %>
+<ul class= "country">
+  <% @region.south_american_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.austrailia_region %>
+<ul class= "country">
+  <% @region.austrailia_region_countries.each do |country| %>
+  <li><%= country.name %></li>
+  <% end %>
+</ul>
+</p>

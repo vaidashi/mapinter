@@ -2,7 +2,7 @@
 class WelcomeController < ApplicationController
 
   def index
-
-  end 
+    @region = Region.all 
+  end
 
 end
