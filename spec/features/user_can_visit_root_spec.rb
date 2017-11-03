@@ -25,4 +25,9 @@ feature "User can visit root page" do
     expect(page).to have_css(".region")
     expect(page).to have_css(".country")
   end
+
+  scenario "and sees currency conversion rates" do
+
+
+  end
 end
