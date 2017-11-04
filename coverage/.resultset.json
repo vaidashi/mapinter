@@ -95,31 +95,33 @@
         2,
         null,
         null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null,
-        null,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/application_controller.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/services/conversion.rb": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/channels/application_cable/channel.rb": [
@@ -155,6 +157,6 @@
         0
       ]
     },
-    "timestamp": 1509747978
+    "timestamp": 1509821035
   }
 }
