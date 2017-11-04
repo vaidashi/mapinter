@@ -17,4 +17,6 @@ class Conversion
     @to_hkd = attrs[:USDHKD]
   end
 
+
+
 end
