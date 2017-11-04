@@ -1,0 +1,71 @@
+
+<h1>MapInter</h1>
+
+<h3>Currency Rates Basket</h3>
+<p class= "rates">
+<ul>
+<strong>US to Austrailian</strong>: <%= @currency_rates.to_austrailian %><br>
+<strong>US to Euro</strong>: <%= @currency_rates.to_euro %><br>
+<strong>US to British Pound</strong>: <%= @currency_rates.to_sterling %><br>
+<strong>US to Japanese</strong>: <%= @currency_rates.to_yen %><br>
+<strong>US to Chinese Yuan Rembini</strong>: <%= @currency_rates.to_yuan %><br>
+<strong>US to Hong Kong Dollar</strong>: <%= @currency_rates.to_hkd %><br>
+</ul>
+</p>
+
+
+<p class= "region"><%= @region.africa %>
+<ul class= "country">
+  <% @region.african_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.asia %>
+<ul class= "country">
+  <% @region.asian_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.europe %>
+<ul class= "country">
+  <% @region.european_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.north_america %>
+<ul class= "country">
+  <% @region.north_american_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.central_america %>
+<ul class= "country">
+  <% @region.central_american_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.south_america %>
+<ul class= "country">
+  <% @region.south_american_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
+
+<p class= "region"><%= @region.austrailia_region %>
+<ul class= "country">
+  <% @region.austrailia_region_countries.countries.each do |country| %>
+  <li><%= link_to country.name, region_country_path(@region, country) %></li>
+  <% end %>
+</ul>
+</p>
