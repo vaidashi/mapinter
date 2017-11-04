@@ -169,6 +169,10 @@
         0,
         0,
         null,
+        0,
+        0,
+        0,
+        null,
         0
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/jobs/application_job.rb": [
@@ -182,6 +186,6 @@
         0
       ]
     },
-    "timestamp": 1509827505
+    "timestamp": 1509835552
   }
 }

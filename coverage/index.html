@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-11-04T14:31:45-06:00">2017-11-04T14:31:45-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-11-04T16:45:52-06:00">2017-11-04T16:45:52-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">76.25%</span></span>
+    (<span class="covered_percent"><span class="red">73.49%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.18
+         1.13
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>14</b> files in total.
-    <b>80</b> relevant lines. 
+    <b>83</b> relevant lines. 
     <span class="green"><b>61</b> lines covered</span> and
-    <span class="red"><b>19</b> lines missed </span>
+    <span class="red"><b>22</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -83,10 +83,10 @@
       <tr>
         <td class="strong"><a href="#eb915662344f419120f23c789ee219ca33cd5fc8" class="src_link" title="app/controllers/countries_controller.rb">app/controllers/countries_controller.rb</a></td>
         <td class="red strong">0.0 %</td>
+        <td>12</td>
         <td>8</td>
-        <td>5</td>
         <td>0</td>
-        <td>5</td>
+        <td>8</td>
         <td>0.0</td>
       </tr>
       
@@ -199,20 +199,20 @@
           <div class="file_list_container" id="Controllers">
   <h2>
     <span class="group_name">Controllers</span>
-    (<span class="covered_percent"><span class="red">54.55%</span></span>
+    (<span class="covered_percent"><span class="red">42.86%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.73
+         0.57
        </span>
     </span> hits/line)
   </h2>
   <a name="Controllers"></a>
   <div>
     <b>3</b> files in total.
-    <b>11</b> relevant lines. 
+    <b>14</b> relevant lines. 
     <span class="green"><b>6</b> lines covered</span> and
-    <span class="red"><b>5</b> lines missed </span>
+    <span class="red"><b>8</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -241,10 +241,10 @@
       <tr>
         <td class="strong"><a href="#eb915662344f419120f23c789ee219ca33cd5fc8" class="src_link" title="app/controllers/countries_controller.rb">app/controllers/countries_controller.rb</a></td>
         <td class="red strong">0.0 %</td>
+        <td>12</td>
         <td>8</td>
-        <td>5</td>
         <td>0</td>
-        <td>5</td>
+        <td>8</td>
         <td>0.0</td>
       </tr>
       
@@ -733,9 +733,9 @@
     <h3>app/controllers/countries_controller.rb</h3>
     <h4><span class="red">0.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
+      <b>8</b> relevant lines. 
       <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>5</b> lines missed.</span>
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
   
@@ -775,7 +775,7 @@
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    response = Faraday.get(&quot;https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=9a7108e66aba4ded99fd91f4250c4e62&amp;q=brazil&amp;sort=newest&amp;page=0&amp;subject=brazil&amp;glocations=brazil&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -785,6 +785,30 @@
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
+          
+          
+          <code class="ruby">    raw_news = JSON.parse(response.body, symbolize_names: true)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">    binding.pry</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="12">
           
           
           <code class="ruby">end</code>
