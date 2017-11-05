@@ -58,8 +58,8 @@
 <p class= "news_feed">
   <% @news_feeds.each do |news_feed| %>
   <ul class="story">
-    <li class="headline"> <%= link_to news_feed.url %></li>
-    <li class="url"> <%= news_feed.headline %></li>
+    <h4 class="headline"><%= news_feed.headline %></h4>
+    <li class="url"> <%= link_to "Click here for full story>>", news_feed.url, target: :_blank %></li>
   </ul>
   <% end %>
 </p>
