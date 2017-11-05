@@ -102,6 +102,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
@@ -149,6 +151,63 @@
         null,
         null
       ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/presenters/news_presenter.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        10,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/services/news_finder.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/services/news.rb": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        10,
+        10,
+        null,
+        null,
+        null
+      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -159,16 +218,6 @@
         0,
         0,
         0,
-        0
-      ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
         0
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/jobs/application_job.rb": [
@@ -182,6 +231,6 @@
         0
       ]
     },
-    "timestamp": 1509827505
+    "timestamp": 1509917277
   }
 }
