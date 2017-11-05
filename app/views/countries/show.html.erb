@@ -54,5 +54,16 @@
 <input type="text" id="to" name="to">
 
 
+<h3>Recent News</h3>
+<p class= "news_feed">
+  <% @news_feeds.each do |news_feed| %>
+  <ul class="story">
+    <li class="headline"><%= news_feed.url %></li>
+    <li class="url"><%= news_feed.headline %></li>
+  </ul>
+  <% end %>
+</p>
+
+
 </body>
 </html>

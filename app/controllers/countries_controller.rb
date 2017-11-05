@@ -7,9 +7,9 @@ class CountriesController < ApplicationController
 
     raw_news = JSON.parse(response.body, symbolize_names: true)[:response][:docs]
     # binding.pry
-    # @news_feeds = raw_news.map do |raw_story|
-    #   News.new(raw_story)
-    # end
+    @news_feeds = raw_news.map do |raw_story|
+      News.new(raw_story)
+    end
   end
 
 end
