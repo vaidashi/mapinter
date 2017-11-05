@@ -11,11 +11,12 @@ feature "User visits country show page" do
     expect(page).to have_content(country.name)
 
     expect(page).to have_css(".news_feed")
-    within(first(".news_feed")) do
+    expect(page).to have_css(".story")
+    within(first(".story")) do
         expect(page).to have_css(".url")
         expect(page).to have_css(".headline")
       end
-    end 
+    end
   end
 
 end

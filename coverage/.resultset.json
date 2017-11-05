@@ -80,6 +80,40 @@
         null,
         null
       ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        10,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        10,
+        10,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
         null,
         1,
@@ -90,11 +124,6 @@
         2,
         null,
         null,
-        null
-      ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/application_controller.rb": [
-        1,
-        1,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/presenters/currency_presenter.rb": [
@@ -149,23 +178,6 @@
         null,
         null
       ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -189,6 +201,6 @@
         0
       ]
     },
-    "timestamp": 1509913522
+    "timestamp": 1509915102
   }
 }

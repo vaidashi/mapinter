@@ -13,3 +13,15 @@ class CountriesController < ApplicationController
   end
 
 end
+
+class News
+
+  attr_reader :url, :headline
+
+  def initialize(attrs)
+    # binding.pry
+    @url = attrs[:web_url]
+    @headline = attrs[:headline]
+  end
+
+end
