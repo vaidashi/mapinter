@@ -9,12 +9,12 @@ class Conversion
               :to_hkd
 
   def initialize(attrs)
-    @to_austrailian = attrs[:USDAUD]
-    @to_euro = attrs[:USDEUR]
-    @to_sterling = attrs[:USDGBP]
-    @to_yen = attrs[:USDJPY]
-    @to_yuan = attrs[:USDCNY]
-    @to_hkd = attrs[:USDHKD]
+    @to_austrailian = attrs[:quotes][:USDAUD]
+    @to_euro        = attrs[:quotes][:USDEUR]
+    @to_sterling    = attrs[:quotes][:USDGBP]
+    @to_yen         = attrs[:quotes][:USDJPY]
+    @to_yuan        = attrs[:quotes][:USDCNY]
+    @to_hkd         = attrs[:quotes][:USDHKD]
   end
 
 
