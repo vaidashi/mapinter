@@ -65,5 +65,15 @@
 </p>
 
 
+<h3>Travel Notes</h3>
+<p class= "travel_requirements">
+    <strong class="vaccinations"> Inoculations</strong> : <%=  @travel_requirements.vaccination_notifier %><br>
+    <strong class="currency_vs_usd"> Local Currency Against Dollar</strong> <%= @travel_requirements.currency_vs_usd %><br>
+    <strong class="water_advisory"> Drinking Water Advisory</strong> <%= @travel_requirements.drinking_water %><br>
+    <strong class="physical_safety"> Warnings for US Travelers</strong>: <%= @travel_requirements.physical_safety_notifier %><br>
+    <%= link_to "Click here for more Guidelines", "https://travel.state.gov/content/passports/en/alertswarnings.html", target: :_blank %>
+</p>
+
+
 </body>
 </html>

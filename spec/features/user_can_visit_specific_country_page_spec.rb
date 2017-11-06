@@ -32,8 +32,9 @@ feature "User visits country show page" do
 
     expect(page).to have_css(".travel_requirements")
     expect(page).to have_css(".vaccinations")
-    expect(page).to have_css(".currency")
-    expect(page).to have_css(".advisories")
+    expect(page).to have_css(".currency_vs_usd")
+    expect(page).to have_css(".water_advisory")
+    expect(page).to have_css(".physical_safety")
   end
 
   end
