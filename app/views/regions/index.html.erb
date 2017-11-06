@@ -18,58 +18,117 @@
 
 
 
-<p class= "region"><%= @region.africa %>
-<ul class= "country">
-  <% @region.african_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
 
-<p class= "region"><%= @region.asia %>
-<ul class= "country">
-  <% @region.asian_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
 
-<p class= "region"><%= @region.europe %>
-<ul class= "country">
-  <% @region.european_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
 
-<p class= "region"><%= @region.north_america %>
-<ul class= "country">
-  <% @region.north_american_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <%= @region.africa %></h3>
+                </div>
+                <ul class="list-group">
+                  <% @region.african_countries.countries.each do |country| %>
+                  <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                  <% end %>
+                </ul>
+            </div>
+        </div>
 
-<p class= "region"><%= @region.central_america %>
-<ul class= "country">
-  <% @region.central_american_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
 
-<p class= "region"><%= @region.south_america %>
-<ul class= "country">
-  <% @region.south_american_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
+        <div class="col-md-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                      <%= @region.asia %>  </h3>
+                </div>
+                <ul class="list-group">
+                  <ul class= "country">
+                    <% @region.asian_countries.countries.each do |country| %>
+                    <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
 
-<p class= "region"><%= @region.austrailia_region %>
-<ul class= "country">
-  <% @region.austrailia_region_countries.countries.each do |country| %>
-  <li><%= link_to country.name, region_country_path(@region, country) %></li>
-  <% end %>
-</ul>
-</p>
+
+        <div class="col-md-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <%= @region.europe %></h3>
+                        </div>
+                        <ul class="list-group">
+                          <% @region.european_countries.countries.each do |country| %>
+                          <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                          <% end %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <%= @region.north_america %></h3>
+                        </div>
+                        <ul class="list-group">
+                          <% @region.north_american_countries.countries.each do |country| %>
+                          <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                          <% end %>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                      <div class="panel panel-warning">
+                          <div class="panel-heading">
+                              <h3 class="panel-title">
+                                  <%= @region.central_america %> </h3>
+                          </div>
+                          <ul class="list-group">
+                            <% @region.central_american_countries.countries.each do |country| %>
+                            <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                            <% end %>
+                          </ul>
+                      </div>
+                  </div>
+
+
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title">
+                                          <%= @region.south_america %></h3>
+                                  </div>
+                                  <ul class="list-group">
+                                    <% @region.south_american_countries.countries.each do |country| %>
+                                    <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                                    <% end %>
+                                  </ul>
+                              </div>
+                          </div>
+
+
+                          <div class="col-md-4">
+                              <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title">
+                                        <%= @region.austrailia_region %>  </h3>
+                                  </div>
+                                  <ul class="list-group">
+                                    <ul class= "country">
+                                      <% @region.austrailia_region_countries.countries.each do |country| %>
+                                      <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                                      <% end %>
+                                  </ul>
+                              </div>
+                          </div>

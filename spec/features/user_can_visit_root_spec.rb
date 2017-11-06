@@ -24,7 +24,6 @@ feature "User can visit root page" do
 
       expect(current_path).to eq(root_path)
 
-      expect(page).to have_css(".region")
       expect(page).to have_css(".country")
     end
   end
