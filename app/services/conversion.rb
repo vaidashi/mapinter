@@ -10,11 +10,11 @@ class Conversion
 
   def initialize(attrs)
     @to_austrailian = attrs[:USDAUD]
-    @to_euro = attrs[:USDEUR]
-    @to_sterling = attrs[:USDGBP]
-    @to_yen = attrs[:USDJPY]
-    @to_yuan = attrs[:USDCNY]
-    @to_hkd = attrs[:USDHKD]
+    @to_euro        = attrs[:USDEUR]
+    @to_sterling    = attrs[:USDGBP]
+    @to_yen         = attrs[:USDJPY]
+    @to_yuan        = attrs[:USDCNY]
+    @to_hkd         = attrs[:USDHKD]
   end
 
 

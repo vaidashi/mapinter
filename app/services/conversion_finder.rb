@@ -9,5 +9,4 @@ class ConversionFinder
     JSON.parse(@conn.body, symbolize_names: true)
   end
 
-
 end
