@@ -4,13 +4,12 @@ feature "User visits country show page" do
   scenario "and sees news feed for country" do
     VCR.use_cassette("find_country_news") do
 
-    region = Region.create(name: "Austrailia/Oceania")
-    country = Country.create(name: "Austrailia", region_id: region.id)
+    region = Region.create(name: "Europe")
+    country = Country.create(name: "Germany", region_id: region.id)
 
     visit region_country_path(region, country)
 
     expect(page).to have_content(country.name)
-
     expect(page).to have_css(".news_feed")
     expect(page).to have_css(".story")
     within(first(".story")) do
