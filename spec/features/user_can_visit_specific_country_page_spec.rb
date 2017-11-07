@@ -13,7 +13,6 @@ feature "User visits country show page" do
     expect(page).to have_css(".news_feed")
     expect(page).to have_css(".story")
     within(first(".story")) do
-        expect(page).to have_css(".url")
         expect(page).to have_css(".headline")
       end
     end
@@ -30,9 +29,6 @@ feature "User visits country show page" do
     expect(page).to have_content(country.name)
 
     expect(page).to have_css(".travel_requirements")
-    expect(page).to have_css(".vaccinations")
-    expect(page).to have_css(".currency_vs_usd")
-    expect(page).to have_css(".water_advisory")
     expect(page).to have_css(".physical_safety")
   end
 

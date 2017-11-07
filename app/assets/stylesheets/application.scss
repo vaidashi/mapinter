@@ -15,3 +15,185 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+ .menu
+ {
+ background-color: #00547E;
+ border-bottom: 4px solid #04A3ED;
+ width:100%;
+ height: auto;
+ // padding: 25px 50px 75px 100px;
+ padding-bottom: 10px;
+ position: absolute;
+ margin: 0px;
+ z-index: 1;
+ opacity: 0.9;
+
+ }
+
+
+
+body > div.menu > h2 {
+ font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+ padding: 0px;
+ margin: 0px;
+ margin-top: 5px;
+ text-decoration: none;
+ color: white;
+ font-size: 65px;
+ padding: 5px 30px;
+ text-align: center;
+ }
+
+.snapshot {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  text-align: center;
+}
+
+h3 {
+
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+}
+
+.country_name {
+padding-top: 100px;
+padding-right: 25px;
+text-align: right;
+}
+
+
+.currency-basket {
+text-align: right;
+padding:10px 25px 15px;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+ // .navbar-header
+ // {
+ // text-decoration: none;
+ // color: #b1bfd8;
+ // }
+ body
+ {
+     padding-top: 20px;
+     background-color: #F7F7F7;
+ }
+ .panel > .list-group
+ {
+     margin-bottom: 0;
+ }
+ .panel > .list-group .list-group-item
+ {
+     border-width: 1px 0;
+ }
+ .panel > .list-group .list-group-item:first-child
+ {
+     border-top-right-radius: 0;
+     border-top-left-radius: 0;
+ }
+ .panel > .list-group .list-group-item:last-child
+ {
+     border-bottom: 0;
+ }
+ .panel-heading + .list-group .list-group-item:first-child
+ {
+     border-top-width: 0;
+ }
+ .panel-default .list-group-item.active
+ {
+     color: #000;
+     background-color: #DDD;
+     border-color: #DDD;
+ }
+ .panel-primary .list-group-item.active
+ {
+     color: #FFF;
+     background-color: #428BCA;
+     border-color: #428BCA;
+ }
+ .panel-success .list-group-item.active
+ {
+     color: #3C763D;
+     background-color: #DFF0D8;
+     border-color: #D6E9C6;
+ }
+ .panel-info .list-group-item.active
+ {
+     color: #31708F;
+     background-color: #D9EDF7;
+     border-color: #BCE8F1;
+ }
+ .panel-warning .list-group-item.active
+ {
+     color: #8A6D3B;
+     background-color: #FCF8E3;
+     border-color: #FAEBCC;
+ }
+ .panel-danger .list-group-item.active
+ {
+     color: #A94442;
+     background-color: #F2DEDE;
+     border-color: #EBCCD1;
+ }
+ .panel a.list-group-item.active:hover, a.list-group-item.active:focus
+ {
+     color: #000;
+     background-color: #DDD;
+     border-color: #DDD;
+ }
+
+
+.recent_news {
+padding-left: 20px;
+}
+
+.travel_requirements {
+  padding-left: 20px;
+}
+
+.travel_notes {
+padding: 20px;
+}
+
+ .sidebarservices {
+   position: absolute;
+   width: 100%;
+   float: left;
+   border:1px solid blue;
+ }
+ .sidebarservices .head {
+   text-align:center;
+   font-size:15pt;
+   background:gray;
+   color:white;
+ }
+ .head:hover {
+   background:gray !important;
+   cursor: initial;
+ }
+ .sidebarservices li {
+   list-style:none;
+   background-color:#0e6eb7;
+   margin:5px 10px;
+   text-align:left;
+   padding: 10px 0 10px 20px;
+   border-radius:5px 5px;
+   cursor:pointer;
+   }
+ .sidebarservices li a {
+   text-decoration:none;
+   color:white !important;
+   font-family: Century Gothic, sans-serif;
+   }
+   .sidebarservices li:hover {
+     background:black;
+     color:black;
+   }
