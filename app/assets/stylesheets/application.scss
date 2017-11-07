@@ -23,7 +23,7 @@
  border-bottom: 4px solid #04A3ED;
  width:100%;
  height: auto;
- padding: 25px 50px 75px 100px;
+ // padding: 25px 50px 75px 100px;
  padding-bottom: 10px;
  position: absolute;
  margin: 0px;
@@ -34,15 +34,16 @@
 
 
 
- .navbar-header
- {
+body > div.menu > h2 {
  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
  padding: 0px;
  margin: 0px;
+ margin-top: 5px;
  text-decoration: none;
  color: white;
- font-size: 165px;
+ font-size: 65px;
  padding: 5px 30px;
+ text-align: center;
  }
 
 .snapshot {
