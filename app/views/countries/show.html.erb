@@ -1,5 +1,5 @@
 
-<%= @country.name  %> Info
+<h3 class="country_name"><%= @country.name  %> Travel Info </h3>
 <br><br>
 
 <!doctype html>
@@ -54,25 +54,99 @@
 <input type="text" id="to" name="to">
 
 
-<h3>Recent News</h3>
+<h3 class="recent_news">Recent News</h3>
 <p class= "news_feed">
   <% @news_feeds.each do |news_feed| %>
   <ul class="story">
-    <h4 class="headline"><%= news_feed.headline %></h4>
-    <li class="url"> <%= link_to "Click here for full story>>", news_feed.url, target: :_blank %></li>
+    <h4 class="headline"><%= link_to news_feed.headline, news_feed.url, target: :_blank %></h4>
   </ul>
   <% end %>
 </p>
 
 
-<h3>Travel Notes</h3>
+
+
+
+<h3 class="travel_notes">Travel Notes</h3>
 <p class= "travel_requirements">
-    <strong class="vaccinations"> Inoculations</strong> : <%=  @travel_requirements.vaccination_notifier %><br>
-    <strong class="currency_vs_usd"> Local Currency Against Dollar</strong> <%= @travel_requirements.currency_vs_usd %><br>
-    <strong class="water_advisory"> Drinking Water Advisory</strong> <%= @travel_requirements.drinking_water %><br>
+
     <strong class="physical_safety"> Warnings for US Travelers</strong>: <%= @travel_requirements.physical_safety_notifier %><br>
     <%= link_to "Click here for more Guidelines", "https://travel.state.gov/content/passports/en/alertswarnings.html", target: :_blank %>
 </p>
+
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<div class="container">
+	<div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Travel Advisory Notes</h3>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row toggle" id="dropdown-detail-1" data-toggle="detail-1">
+                    <div class="col-xs-10">
+                        Inoculations
+                    </div>
+                    <div class="col-xs-2"><i class="fa fa-chevron-down pull-right"></i></div>
+                </div>
+                <div id="detail-1">
+                    <hr></hr>
+                    <div class="container">
+                        <div class="fluid-row">
+                            <div class="col-xs-1">
+                                Details:
+                            </div>
+                            <div class="col-xs-5">
+                                <%=  @travel_requirements.vaccination_notifier %>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row toggle" id="dropdown-detail-2" data-toggle="detail-2">
+                    <div class="col-xs-10">
+                        Local Currency Against Dollar
+                    </div>
+                    <div class="col-xs-2"><i class="fa fa-chevron-down pull-right"></i></div>
+                </div>
+                <div id="detail-2">
+                    <hr></hr>
+                    <div class="container">
+                        <div class="fluid-row">
+                            <div class="col-xs-1">
+                                Details:
+                            </div>
+                            <div class="col-xs-5">
+                                <%= @travel_requirements.currency_vs_usd %>
+                            </div>
+
+            </li>
+            <li class="list-group-item">
+                <div class="row toggle" id="dropdown-detail-3" data-toggle="detail-3">
+                    <div class="col-xs-10">
+                        Drinking Water Advisory
+                    </div>
+                    <div class="col-xs-2"><i class="fa fa-chevron-down pull-right"></i></div>
+                </div>
+                <div id="detail-3">
+                    <hr></hr>
+                    <div class="container">
+                        <div class="fluid-row">
+                            <div class="col-xs-1">
+                                Details:
+                            </div>
+                            <div class="col-xs-5">
+                                <%= @travel_requirements.drinking_water %>
+                            </div>
+
+            </li>
+
+        </ul>
+	</div>
+</div>
+
 
 
 </body>

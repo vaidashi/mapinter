@@ -57,6 +57,13 @@ h3 {
 
 }
 
+.country_name {
+padding-top: 100px;
+padding-right: 25px;
+text-align: right;
+}
+
+
 .currency-basket {
 text-align: right;
 padding:10px 25px 15px;
@@ -142,3 +149,51 @@ img {
      background-color: #DDD;
      border-color: #DDD;
  }
+
+
+.recent_news {
+padding-left: 20px;
+}
+
+.travel_requirements {
+  padding-left: 20px;
+}
+
+.travel_notes {
+padding: 20px;
+}
+
+ .sidebarservices {
+   position: absolute;
+   width: 100%;
+   float: left;
+   border:1px solid blue;
+ }
+ .sidebarservices .head {
+   text-align:center;
+   font-size:15pt;
+   background:gray;
+   color:white;
+ }
+ .head:hover {
+   background:gray !important;
+   cursor: initial;
+ }
+ .sidebarservices li {
+   list-style:none;
+   background-color:#0e6eb7;
+   margin:5px 10px;
+   text-align:left;
+   padding: 10px 0 10px 20px;
+   border-radius:5px 5px;
+   cursor:pointer;
+   }
+ .sidebarservices li a {
+   text-decoration:none;
+   color:white !important;
+   font-family: Century Gothic, sans-serif;
+   }
+   .sidebarservices li:hover {
+     background:black;
+     color:black;
+   }
