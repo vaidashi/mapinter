@@ -10,7 +10,7 @@ feature "User can visit root page" do
       region_4 = create(:region, name: "North America")
       region_5 = create(:region, name: "Central America")
       region_6 = create(:region, name: "South America")
-      region_7 = create(:region, name: "Austrailia/Oceania")
+      region_7 = create(:region, name: "Australia/Oceania")
 
       country_group_1 = create_list(:country, 23, region: region_1)
       country_group_2 = create_list(:country, 37, region: region_2)
@@ -37,7 +37,7 @@ feature "User can visit root page" do
       region_4 = create(:region, name: "North America")
       region_5 = create(:region, name: "Central America")
       region_6 = create(:region, name: "South America")
-      region_7 = create(:region, name: "Austrailia/Oceania")
+      region_7 = create(:region, name: "Australia/Oceania")
 
       country_group_1 = create_list(:country, 23, region: region_1)
       country_group_2 = create_list(:country, 37, region: region_2)

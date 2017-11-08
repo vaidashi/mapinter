@@ -113,8 +113,8 @@
         1,
         null,
         1,
-        11,
-        11,
+        21,
+        21,
         null,
         null,
         null
@@ -150,50 +150,6 @@
         null,
         null
       ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/presenters/currency_presenter.rb": [
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        2,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vaidashi/turing/3module/projects/mapinter/app/services/conversion_finder.rb": [
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null
-      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/countries_controller.rb": [
         null,
         1,
@@ -205,6 +161,11 @@
         2,
         null,
         null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/application_controller.rb": [
+        1,
+        1,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/presenters/news_presenter.rb": [
@@ -219,7 +180,7 @@
         2,
         null,
         2,
-        10,
+        20,
         null,
         null,
         null,
@@ -271,6 +232,45 @@
         null,
         null
       ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/presenters/currency_presenter.rb": [
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/projects/mapinter/app/services/conversion_finder.rb": [
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -294,6 +294,6 @@
         0
       ]
     },
-    "timestamp": 1510162862
+    "timestamp": 1510163695
   }
 }

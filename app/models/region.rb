@@ -51,12 +51,12 @@ class Region < ApplicationRecord
     find_by(name: "South America")
   end
 
-  def self.austrailia_region
-    find_by(name: "Austrailia/Oceania").name
+  def self.australia_region
+    find_by(name: "Australia/Oceania").name
   end
 
-  def self.austrailia_region_countries
-    find_by(name: "Austrailia/Oceania")
+  def self.australia_region_countries
+    find_by(name: "Australia/Oceania")
   end
 
 end

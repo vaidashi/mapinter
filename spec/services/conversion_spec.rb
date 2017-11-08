@@ -14,7 +14,7 @@ describe Conversion do
 
     conversion = Conversion.new(valid_attributes)
 
-    expect(conversion.to_austrailian).to eq(1.332)
+    expect(conversion.to_australian).to eq(1.332)
     expect(conversion.to_euro).to eq(0.86104)
     expect(conversion.to_sterling).to eq(0.76478)
     expect(conversion.to_yen).to eq(113.98604)

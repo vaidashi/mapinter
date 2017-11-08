@@ -21,8 +21,8 @@ feature "User visits country show page" do
   scenario "and sees country travel information" do
     VCR.use_cassette("find_country_advisory_report") do
 
-    region = Region.create(name: "Austrailia/Oceania")
-    country = Country.create(name: "Austrailia", region_id: region.id)
+    region = Region.create(name: "Australia/Oceania")
+    country = Country.create(name: "Australia", region_id: region.id)
 
     visit country_path(country)
 

@@ -10,7 +10,7 @@
 <h4>Currency Rates Basket</h4>
 <p class= "rates">
 <ul>
-  <strong>USD to Austrailian Dollar</strong>: <%= @currency_rates.to_austrailian %><br>
+  <strong>USD to Australian Dollar</strong>: <%= @currency_rates.to_australian %><br>
   <strong>USD to Euro</strong>: <%= @currency_rates.to_euro %><br>
   <strong>USD to British Pound</strong>: <%= @currency_rates.to_sterling %><br>
   <strong>USD to Japanese Yen</strong>: <%= @currency_rates.to_yen %><br>
@@ -126,11 +126,11 @@
                               <div class="panel panel-primary">
                                   <div class="panel-heading">
                                       <h3 class="panel-title">
-                                        <%= @region.austrailia_region %>  </h3>
+                                        <%= @region.australia_region %>  </h3>
                                   </div>
                                   <ul class="list-group">
                                     <ul class= "country">
-                                      <% @region.austrailia_region_countries.countries.each do |country| %>
+                                      <% @region.australia_region_countries.countries.each do |country| %>
                                       <li class="list-group-item"><%= link_to country.name, country_path( country) %></li>
                                       <% end %>
                                   </ul>
