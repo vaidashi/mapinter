@@ -35,7 +35,7 @@
                 </div>
                 <ul class="list-group">
                   <% @region.african_countries.countries.each do |country| %>
-                  <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                  <li class="list-group-item"><%= link_to country.name, country_path(country) %></li>
                   <% end %>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
                 <ul class="list-group">
                   <ul class= "country">
                     <% @region.asian_countries.countries.each do |country| %>
-                    <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                    <li class="list-group-item"><%= link_to country.name, country_path(country) %></li>
                     <% end %>
                 </ul>
             </div>
@@ -66,7 +66,7 @@
                         </div>
                         <ul class="list-group">
                           <% @region.european_countries.countries.each do |country| %>
-                          <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                          <li class="list-group-item"><%= link_to country.name, country_path( country) %></li>
                           <% end %>
                         </ul>
                     </div>
@@ -83,7 +83,7 @@
                         </div>
                         <ul class="list-group">
                           <% @region.north_american_countries.countries.each do |country| %>
-                          <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                          <li class="list-group-item"><%= link_to country.name, country_path(country) %></li>
                           <% end %>
                         </ul>
                     </div>
@@ -98,7 +98,7 @@
                           </div>
                           <ul class="list-group">
                             <% @region.central_american_countries.countries.each do |country| %>
-                            <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                            <li class="list-group-item"><%= link_to country.name, country_path( country) %></li>
                             <% end %>
                           </ul>
                       </div>
@@ -115,7 +115,7 @@
                                   </div>
                                   <ul class="list-group">
                                     <% @region.south_american_countries.countries.each do |country| %>
-                                    <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                                    <li class="list-group-item"><%= link_to country.name, country_path(country) %></li>
                                     <% end %>
                                   </ul>
                               </div>
@@ -131,7 +131,7 @@
                                   <ul class="list-group">
                                     <ul class= "country">
                                       <% @region.austrailia_region_countries.countries.each do |country| %>
-                                      <li class="list-group-item"><%= link_to country.name, region_country_path(@region, country) %></li>
+                                      <li class="list-group-item"><%= link_to country.name, country_path( country) %></li>
                                       <% end %>
                                   </ul>
                               </div>

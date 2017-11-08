@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-11-07T15:52:32-07:00">2017-11-07T15:52:32-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-11-08T10:37:54-07:00">2017-11-08T10:37:54-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.53
+         1.57
        </span>
     </span> hits/line)
   </h2>
@@ -193,7 +193,7 @@
       <tr>
         <td class="strong"><a href="#38a22ce60f8e13809e38ff593849b8f269e02533" class="src_link" title="app/services/advisory_finder.rb">app/services/advisory_finder.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>12</td>
+        <td>13</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -227,7 +227,7 @@
         <td>5</td>
         <td>5</td>
         <td>0</td>
-        <td>4.6</td>
+        <td>5.0</td>
       </tr>
       
       <tr>
@@ -247,7 +247,7 @@
         <td>14</td>
         <td>12</td>
         <td>2</td>
-        <td>1.4</td>
+        <td>1.6</td>
       </tr>
       
     </tbody>
@@ -575,7 +575,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.74
+         1.81
        </span>
     </span> hits/line)
   </h2>
@@ -653,7 +653,7 @@
       <tr>
         <td class="strong"><a href="#38a22ce60f8e13809e38ff593849b8f269e02533" class="src_link" title="app/services/advisory_finder.rb">app/services/advisory_finder.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>12</td>
+        <td>13</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -687,7 +687,7 @@
         <td>5</td>
         <td>5</td>
         <td>0</td>
-        <td>4.6</td>
+        <td>5.0</td>
       </tr>
       
       <tr>
@@ -707,7 +707,7 @@
         <td>14</td>
         <td>12</td>
         <td>2</td>
-        <td>1.4</td>
+        <td>1.6</td>
       </tr>
       
     </tbody>
@@ -1938,7 +1938,7 @@
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
-          <code class="ruby">    @conn = Faraday.get(&quot;https://travelbriefing.org/#{country.name}?format=json&quot;)</code>
+          <code class="ruby">    @conn = Faraday.get(&quot;https://travelbriefing.org/#{URI.escape(country.name)}?format=json&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -1974,10 +1974,16 @@
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">  </code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">end</code>
@@ -2292,14 +2298,14 @@
           <code class="ruby">  def initialize(attrs)</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="7">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="11" data-linenumber="7">
+          <span class="hits">11</span>
           
           <code class="ruby">    @url      = attrs[:web_url]</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="8">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="11" data-linenumber="8">
+          <span class="hits">11</span>
           
           <code class="ruby">    @headline = attrs[:headline][:print_headline]</code>
         </li>
@@ -2486,26 +2492,26 @@
           <code class="ruby">  def initialize(attrs)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="10">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="10">
+          <span class="hits">3</span>
           
           <code class="ruby">    @vaccinations    = attrs[:vaccinations]</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="11">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="11">
+          <span class="hits">3</span>
           
           <code class="ruby">    @currency_vs_usd = attrs[:currency][:rate]</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="12">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="12">
+          <span class="hits">3</span>
           
           <code class="ruby">    @drinking_water  = attrs[:water][:short]</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="13">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="13">
+          <span class="hits">3</span>
           
           <code class="ruby">    @advisories      = attrs[:advise][:US]</code>
         </li>
