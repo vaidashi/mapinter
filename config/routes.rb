@@ -3,8 +3,7 @@ Rails.application.routes.draw do
 
   root "regions#index"
 
-  resources :regions do
-    resources :countries
-  end
+  resources :regions
+  resources :countries, only: [:show]
 
 end

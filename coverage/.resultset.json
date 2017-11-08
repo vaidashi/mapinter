@@ -229,6 +229,7 @@
         2,
         null,
         null,
+        null,
         null
       ],
       "/Users/vaidashi/turing/3module/projects/mapinter/app/controllers/regions_controller.rb": [
@@ -293,6 +294,6 @@
         0
       ]
     },
-    "timestamp": 1510111214
+    "timestamp": 1510161602
   }
 }
