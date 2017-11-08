@@ -94,10 +94,12 @@
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-xs-1">
-                                Details:
+                                <strong>Details:</strong>
                             </div>
                             <div class="col-xs-5">
-                                <%=  @travel_requirements.vaccination_notifier %>
+                                <%  @travel_requirements.vaccination_notifier.each do |vaccination| %>
+                                <%= vaccination %><br>
+                                <% end %>
                             </div>
 
                         </div>
@@ -116,7 +118,7 @@
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-xs-1">
-                                Details:
+                              <strong>Details:</strong>
                             </div>
                             <div class="col-xs-5">
                                 <%= @travel_requirements.currency_vs_usd %>
@@ -135,7 +137,7 @@
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-xs-1">
-                                Details:
+                              <strong>Details:</strong>
                             </div>
                             <div class="col-xs-5">
                                 <%= @travel_requirements.drinking_water %>
