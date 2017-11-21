@@ -7,8 +7,8 @@ During this project:
 * Consumed NY Times article search API to filter news by country
 * Consumed an API provided by Travel Briefing in order to provide synopsis on requirements/warnings for U.S. travelers to a particular country
 * Practiced mixing HTML, CSS, and templates to create an inviting and usable User Interface
-* Deployed an application to Heroku
-
+* Deployed an application to Heroku https://mapinter.herokuapp.com/
+* Would look to incorporate flight prices for a specific destination given a date range for travel
 
 ### Prerequisites
 
